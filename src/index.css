@@ -1,5 +1,42 @@
+* {
+  font-family: 'Montserrat', sans-serif; 
+}
+
 body, html {
   margin: 0;
-  padding-left: 1rem;
-  background-image: linear-gradient(to left, #6a7152, #63a46c);
+  background-image: linear-gradient(to right, #f42c04, #f3fcf0, #35a7ff);
 }
+
+p {
+  font-size: 1.5rem;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+nav {
+  margin-bottom: 25px;
+  border-bottom: 5px solid black;
+}
+
+nav li {
+cursor: pointer;
+}
+
+nav li:hover {
+  background-color: white;
+}
+
+.profilePic {
+    width: auto;
+    height: auto;
+    max-width: 240px;
+    max-height: 320px;
+    /* padding: 50px; */
+    margin-bottom: 50px;
+  }
