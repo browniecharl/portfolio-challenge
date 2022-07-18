@@ -1,10 +1,18 @@
 * {
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Nunito', sans-serif;
+  color: black;
 }
 
-body, html {
+body {
   margin: 0;
-  background-image: linear-gradient(to right, #f42c04, #f3fcf0, #35a7ff);
+  padding-bottom: 10%;
+  background-image: url('./assets/images/alisa-anton-FbRGK2rZs8g-unsplash.jpg');
+  background-size: cover;
+}
+
+header, .headerText {
+  background-color: rgba(54, 51, 51, 0.959);
+  color: white;
 }
 
 p {
@@ -12,31 +20,109 @@ p {
 }
 
 h1 {
-  margin-bottom: 25px;
-}
-
-span {
-  text-decoration: underline;
+  padding-bottom: 25px;
 }
 
 nav {
   margin-bottom: 25px;
   border-bottom: 5px solid black;
+  background-color: rgba(54, 51, 51, 0.959);
 }
 
 nav li {
 cursor: pointer;
 }
 
-nav li:hover {
-  background-color: white;
+nav li:hover span{
+  background-color: rgba(54, 51, 51, 0.867);
+  color: white;
+  border-radius: 10%;
+  font-size: 1.30rem;
+  font-weight: bolder;
 }
 
-.profilePic {
+form {
+  width: auto;
+}
+
+input {
+  font-size: 1.5rem;
+  background: none;
+  border: 1px solid grey;
+  color: white;
+  width: 40%;
+}
+
+label {
+  font-size: 1rem;
+}
+
+.nameLabel, .emailLabel, .messageLabel {
+  font-size: 2rem;
+}
+
+textarea {
+  font-size: 1.25rem;
+  width: 60%;
+  border: 1px solid grey;
+  background: none;
+  color: white;
+  
+}
+
+input:focus, textarea {
+  outline: none;
+}
+
+.contactButton {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(157, 150, 150);
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(54, 51, 51, 0.959)
+}
+
+.contactButton:hover {
+  background-color: black;
+}
+
+.profilePic, .contactPic {
     width: auto;
     height: auto;
     max-width: 240px;
     max-height: 320px;
     /* padding: 50px; */
     margin-bottom: 50px;
+  }
+
+  span, label {
+    font-size: 1.20rem;
+    border-radius: 5%;
+    border: none;
+    color: white;
+   }
+
+  #wrapperContent {
+    border-radius: 4%;
+    background-color:rgba(54, 51, 51, 0.867);
+    color: white;
+    
+  }
+
+  .flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .col {
+    flex: 1;
+  }
+
+  .aboutMeHead, .contactMeHead {
+    color: rgba(54, 51, 51, 0.959);
   }
