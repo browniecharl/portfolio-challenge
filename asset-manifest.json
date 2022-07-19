@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio-challenge/static/css/main.369349ba.css",
+    "main.js": "/portfolio-challenge/static/js/main.5031cdd5.js",
+    "static/js/787.372fcdcc.chunk.js": "/portfolio-challenge/static/js/787.372fcdcc.chunk.js",
+    "static/media/lyrics-ss.png": "/portfolio-challenge/static/media/lyrics-ss.735144a0a7f0e78f3ab8.png",
+    "static/media/kelly-sikkema-eFBrwiubJa0-unsplash.jpg": "/portfolio-challenge/static/media/kelly-sikkema-eFBrwiubJa0-unsplash.a4d56b832bbc59d72a64.jpg",
+    "static/media/v1027-097-a.jpg": "/portfolio-challenge/static/media/v1027-097-a.0b311e6dc72e1a59ce11.jpg",
+    "static/media/weather-dashboard.png": "/portfolio-challenge/static/media/weather-dashboard.9e7669198b2ba68e4c76.png",
+    "static/media/IMG_316.png": "/portfolio-challenge/static/media/IMG_316.172a788f44013fb2c5e2.png",
+    "static/media/alisa-anton-FbRGK2rZs8g-unsplash.jpg": "/portfolio-challenge/static/media/alisa-anton-FbRGK2rZs8g-unsplash.27dd741ddec539d0ff9e.jpg",
+    "static/media/madelynn-woods-4VD5zjYL-lk-unsplash.jpg": "/portfolio-challenge/static/media/madelynn-woods-4VD5zjYL-lk-unsplash.1e503b9e3e6179987d56.jpg",
+    "static/media/homepage.png": "/portfolio-challenge/static/media/homepage.e5afbde404e279c607cd.png",
+    "static/media/IMG_0087.png": "/portfolio-challenge/static/media/IMG_0087.1e4cb091928ae16a92f1.png",
+    "static/media/385.jpeg": "/portfolio-challenge/static/media/385.54a9eaa02cd655078779.jpeg",
+    "static/media/testProfilePic.jpeg": "/portfolio-challenge/static/media/testProfilePic.42817bbeef49b38c94fb.jpeg",
+    "static/media/cool-background.png": "/portfolio-challenge/static/media/cool-background.1ac923972569d1c2ff0c.png",
+    "static/media/scheduler-screenshot.png": "/portfolio-challenge/static/media/scheduler-screenshot.3b26b9c0dbc1e981843c.png",
+    "static/media/CTZATEEUkAAGK-W.jpg": "/portfolio-challenge/static/media/CTZATEEUkAAGK-W.ec847895fd51a018484d.jpg",
+    "static/media/email-13781.png": "/portfolio-challenge/static/media/email-13781.f91e1b32c3a0a7a28997.png",
+    "static/media/linkdin.png": "/portfolio-challenge/static/media/linkdin.a680cb8ad2b88be03d17.png",
+    "static/media/pngwing.com.png": "/portfolio-challenge/static/media/pngwing.com.74540eaf0f54f0e03087.png",
+    "static/media/twitterlogo.png": "/portfolio-challenge/static/media/twitterlogo.5eb78cf1f55232ad31b8.png",
+    "static/media/IMG_0086.PNG": "/portfolio-challenge/static/media/IMG_0086.129d609353d26c2b9217.PNG",
+    "static/media/logo.svg": "/portfolio-challenge/static/media/logo.6ce24c58023cc2f8fd88.svg",
+    "index.html": "/portfolio-challenge/index.html",
+    "main.369349ba.css.map": "/portfolio-challenge/static/css/main.369349ba.css.map",
+    "main.5031cdd5.js.map": "/portfolio-challenge/static/js/main.5031cdd5.js.map",
+    "787.372fcdcc.chunk.js.map": "/portfolio-challenge/static/js/787.372fcdcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.369349ba.css",
+    "static/js/main.5031cdd5.js"
+  ]
+}
