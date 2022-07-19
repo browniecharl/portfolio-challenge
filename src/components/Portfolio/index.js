@@ -27,8 +27,8 @@ function Portfolio() {
   return (
     <section className="portfolioProjects has-text-centered">
       <div>
-        <h1 className="has-text-centered is-size-1 has-text-weight-bold">
-          My Portfolio
+        <h1 className=" portfolioHead has-text-centered is-size-1 has-text-weight-bold">
+          <i class="fa-solid fa-book-open fa-2xs"></i> My Portfolio
         </h1>
         <div className="portfolioCards">
           <ul className="mobile-row">

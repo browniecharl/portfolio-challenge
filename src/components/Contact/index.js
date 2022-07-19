@@ -4,7 +4,7 @@ function ContactPage() {
   return (
     <section>
       <h1 className="contactMeHead has-text-centered is-size-1 has-text-weight-bold">
-        Contact Me
+        <i class="fa-solid fa-envelope fa-2xs"></i> Contact Me
       </h1>
       <div className="has-text-centered">
         <img
@@ -16,7 +16,7 @@ function ContactPage() {
         />
       </div>
       <div className="columns is-mobile has-text-centered" id="wrapper">
-        <div className="column is-3"></div>
+        <div className="column is-1"></div>
         <div className="column" id="wrapperContent">
           <form id="contact-form">
             <div>
@@ -45,7 +45,7 @@ function ContactPage() {
             </button>
           </form>
         </div>
-        <div className="column is-3"></div>
+        <div className="column is-1"></div>
       </div>
     </section>
   );

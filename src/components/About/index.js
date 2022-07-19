@@ -4,7 +4,7 @@ function About() {
   return (
     <section>
       <h1 className="aboutMeHead has-text-centered is-size-1 has-text-weight-bold">
-        About Me
+        <i class="fa-solid fa-qrcode fa-2xs"></i> About Me
       </h1>
       <div className="has-text-centered">
         <img
@@ -16,7 +16,7 @@ function About() {
         />
       </div>
       <div className="columns is-mobile" id="wrapper">
-        <div className="column is-2"></div>
+        <div className="column is-1"></div>
         <div className="column has-text-black has-text-centered">
           <p className="aboutText" id="wrapperContent">
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -39,7 +39,7 @@ function About() {
             accident, sometimes on purpose.
           </p>
         </div>
-        <div className="column is-2"></div>
+        <div className="column is-1"></div>
       </div>
     </section>
   );
