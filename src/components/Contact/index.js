@@ -9,7 +9,7 @@ function ContactPage() {
       <div className="has-text-centered">
         <img
           className="contactPic"
-          src={require("../../../src/assets/email-13781.png")}
+          src={require("../../../src/assets/images/email-13781.png")}
           alt="profilePhoto"
           width="45%"
           height="45%"

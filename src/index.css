@@ -1,15 +1,17 @@
 * {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: black;
 }
 
 body {
   margin: 0;
-  background-image: url('./assets/images/alisa-anton-FbRGK2rZs8g-unsplash.jpg');
+  background-image: url("./assets/images/alisa-anton-FbRGK2rZs8g-unsplash.jpg");
   background-size: cover;
 }
 
-header, .headerText, .footerText {
+header,
+.headerText,
+.footerText {
   background-color: rgba(54, 51, 51, 0.959);
   color: white;
 }
@@ -29,14 +31,14 @@ nav {
 }
 
 nav li {
-cursor: pointer;
+  cursor: pointer;
 }
 
-nav li:hover span{
+nav li:hover span {
   background-color: rgba(54, 51, 51, 0.867);
   color: white;
   border-radius: 10%;
-  font-size: 1.30rem;
+  font-size: 1.3rem;
   font-weight: bolder;
 }
 
@@ -56,7 +58,9 @@ label {
   font-size: 1rem;
 }
 
-.nameLabel, .emailLabel, .messageLabel {
+.nameLabel,
+.emailLabel,
+.messageLabel {
   font-size: 2rem;
 }
 
@@ -67,10 +71,10 @@ textarea {
   background: none;
   color: white;
   resize: none;
-  
 }
 
-input:focus, textarea {
+input:focus,
+textarea {
   outline: none;
 }
 
@@ -78,21 +82,32 @@ section {
   margin-bottom: 10%;
 }
 
-footer{
+footer {
   background-color: rgba(54, 51, 51, 0.959);
+  border-top: 5px solid black;
   padding: 3%;
   display: flex;
-  justify-content: space-around ;
+  justify-content: space-around;
+}
+
+.github:hover,
+.linkdin:hover,
+.twitter:hover {
+  border: 1px solid white;
 }
 
 i {
   font-size: 3rem;
 }
 
-.githubIcon, .linkdinIcon, .twitterIcon {
-  font-size: 1.25rem;
+.weatherdashboard,
+.scheduler,
+.justmusicreviews,
+.musicdashboard {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
 }
-
 .contactButton {
   padding: 15px 25px;
   font-size: 24px;
@@ -103,64 +118,76 @@ i {
   background-color: rgb(157, 150, 150);
   border: none;
   border-radius: 15px;
-  box-shadow: rgba(54, 51, 51, 0.959)
+  box-shadow: rgba(54, 51, 51, 0.959);
 }
 
 .contactButton:hover {
   background-color: black;
 }
 
-.profilePic, .contactPic {
-    width: auto;
-    height: auto;
-    max-width: 240px;
-    max-height: 320px;
-    padding: 50px;
-    margin-bottom: 50px;
-  }
+.profilePic,
+.contactPic {
+  width: auto;
+  height: auto;
+  max-width: 240px;
+  max-height: 320px;
+  padding: 50px;
+  margin-bottom: 50px;
+}
 
-  .githubIMG, .twitterIMG {
-    width: auto;
-    height: auto;
-    max-width: 90px;
-    max-height: 120px;
-  }
+span,
+label {
+  font-size: 1.2rem;
+  border-radius: 5%;
+  border: none;
+  color: white;
+}
 
-  .githubLink{
-    display: flex;
-    justify-content: center;
-    padding: 5%;
-  }
+#wrapperContent {
+  border-radius: 4%;
+  background-color: rgba(54, 51, 51, 0.867);
+  color: white;
+}
 
-  .twitterLink {
-    display: flex;
-    justify-content: center;
-    padding: 5%;
-  }
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  span, label {
-    font-size: 1.20rem;
-    border-radius: 5%;
-    border: none;
-    color: white;
-   }
+.col {
+  flex: 1;
+}
 
-  #wrapperContent {
-    border-radius: 4%;
-    background-color:rgba(54, 51, 51, 0.867);
-    color: white;
-    
-  }
+.aboutMeHead,
+.contactMeHead {
+  color: rgba(54, 51, 51, 0.959);
+}
 
-  .flex-grid {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.card-title {
+  border-top: 1px solid black;
+}
 
-  .col {
-    flex: 1;
-  }
+/* .project-card {
+  width: 200px;
+  height: 200px;
+  max-width: 250px;
+  max-height: 250px;
+} */
 
-  .aboutMeHead, .contactMeHead {
-    color: rgba(54, 51, 51, 0.959);
-  }
+/* .card-image-top {
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+} */
+.card-image {
+  max-width: 300px;
+  max-height: 150px;
+  background-color: rgba(54, 51, 51, 0.959);
+  display: inline;
+}
+.card-text,
+.card-title {
+  background-color: rgba(54, 51, 51, 0.959);
+  color: white;
+}

@@ -9,7 +9,7 @@ function About() {
       <div className="has-text-centered">
         <img
           className="profilePic"
-          src={require("../../../src/assets/IMG_316.png")}
+          src={require("../../../src/assets/images/IMG_316.png")}
           alt="profilePhoto"
           width="45%"
           height="45%"
@@ -27,7 +27,16 @@ function About() {
             remaining essentially unchanged. It was popularised in the 1960s
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum
+            PageMaker including versions of Lorem Ipsum. It is a long
+            established fact that a reader will be distracted by the readable
+            content of a page when looking at its layout. The point of using
+            Lorem Ipsum is that it has a more-or-less normal distribution of
+            letters, as opposed to using 'Content here, content here', making it
+            look like readable English. Many desktop publishing packages and web
+            page editors now use Lorem Ipsum as their default model text, and a
+            search for 'lorem ipsum' will uncover many web sites still in their
+            infancy. Various versions have evolved over the years, sometimes by
+            accident, sometimes on purpose.
           </p>
         </div>
         <div className="column is-2"></div>
