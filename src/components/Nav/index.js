@@ -4,7 +4,7 @@ function Nav(props) {
   const { currentTab, setCurrentTab } = props;
   return (
     <nav className="has-text-centered">
-      <ul className="is-inline-flex">
+      <ul className="navBarTabs is-inline-flex">
         <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
           <span onClick={() => setCurrentTab("about")}>About Me</span>
         </li>

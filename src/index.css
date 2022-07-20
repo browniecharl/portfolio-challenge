@@ -10,9 +10,9 @@ body {
 }
 
 header {
-  background-image: url("./assets/images/340029827-huge.jpg");
+  background-image: url("./assets/images/Untitled\ design.png");
   background-size: cover;
-  color: white;
+  color: rgba(54, 51, 51, 0.959);
 }
 
 p {
@@ -30,10 +30,11 @@ nav {
 
 nav li {
   cursor: pointer;
+  color: black;
 }
 
 nav li:hover span {
-  color: white;
+  color: rgba(5, 118, 194, 0.959);
   border-radius: 10%;
   font-size: 1.3rem;
   font-weight: bolder;
@@ -88,7 +89,7 @@ footer {
 }
 
 li {
-  color: white;
+  color: rgba(54, 51, 51, 0.959);
   font-size: 1.25rem;
 }
 
