@@ -7,21 +7,29 @@ function Portfolio() {
       name: "Weather Dashboard",
       description: "Weather Dashboard test text. Description will go here",
       image: "weather-dashboard.png",
+      github: "https://github.com/browniecharl/weather-dashboard-challenge",
+      deployed: "https://browniecharl.github.io/weather-dashboard-challenge/",
     },
     {
       name: "Scheduler",
       description: "Scheduler test text. Description will go here",
       image: "scheduler-screenshot.png",
+      github: "https://github.com/browniecharl/scheduler-challenge",
+      deployed: "https://browniecharl.github.io/scheduler-challenge/",
     },
     {
       name: "Just Music Reviews",
       description: "Just music reviews test text. Description will go here",
       image: "homepage.png",
+      github: "https://github.com/Arankin7/JustMusicReviews",
+      deployed: "https://blooming-headland-30084.herokuapp.com/",
     },
     {
       name: "Music Dashboard",
       description: "Music Dashboard test text. Description will go here",
       image: "lyrics-ss.png",
+      github: "https://github.com/Arankin7/project1_MusicDashboard",
+      deployed: "https://arankin7.github.io/project1_MusicDashboard/",
     },
   ];
   return (

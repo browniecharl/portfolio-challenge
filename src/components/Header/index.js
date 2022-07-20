@@ -4,9 +4,9 @@ import Nav from "../Nav";
 function Header(props) {
   const { currentTab, setCurrentTab } = props;
   return (
-    <header>
+    <header className="headerText">
       <div>
-        <h1 className="headerText is-size-1 pl-5 has-text-centered has-text-weight-bold">
+        <h1 className=" is-size-1 pl-5 has-text-centered has-text-weight-bold has-text-white">
           Robert Velez Portfolio
         </h1>
       </div>

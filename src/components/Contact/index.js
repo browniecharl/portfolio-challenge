@@ -6,7 +6,7 @@ function ContactPage() {
       <h1 className="contactMeHead has-text-centered is-size-1 has-text-weight-bold">
         <i class="fa-solid fa-envelope fa-2xs"></i> Contact Me
       </h1>
-      <div className="has-text-centered">
+      {/* <div className="has-text-centered">
         <img
           className="contactPic"
           src={require("../../../src/assets/images/email-13781.png")}
@@ -14,7 +14,7 @@ function ContactPage() {
           width="45%"
           height="45%"
         />
-      </div>
+      </div> */}
       <div className="columns is-mobile has-text-centered" id="wrapper">
         <div className="column is-1"></div>
         <div className="column" id="wrapperContent">

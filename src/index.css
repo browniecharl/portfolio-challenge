@@ -9,10 +9,9 @@ body {
   background-size: cover;
 }
 
-header,
-.headerText,
-.footerText {
-  background-color: rgba(54, 51, 51, 0.959);
+header {
+  background-image: url("./assets/images/340029827-huge.jpg");
+  background-size: cover;
   color: white;
 }
 
@@ -27,7 +26,6 @@ h1 {
 nav {
   padding-bottom: 25px;
   border-bottom: 5px solid black;
-  background-color: rgba(54, 51, 51, 0.959);
 }
 
 nav li {
@@ -35,7 +33,6 @@ nav li {
 }
 
 nav li:hover span {
-  background-color: rgba(54, 51, 51, 0.867);
   color: white;
   border-radius: 10%;
   font-size: 1.3rem;
@@ -149,7 +146,7 @@ label {
 }
 
 #wrapperContent {
-  border-radius: 4%;
+  /* border-radius: 4%; */
   background-color: rgba(54, 51, 51, 0.867);
   color: white;
 }
@@ -168,7 +165,7 @@ label {
 .resumeHead,
 .portfolioHead {
   color: rgba(54, 51, 51, 0.959);
-  padding: 0%;
+  padding: 5%;
 }
 
 .card-title {
