@@ -5,29 +5,33 @@ function Portfolio() {
   const projects = [
     {
       name: "Weather Dashboard",
-      description: "Weather Dashboard test text. Description will go here",
-      image: "weather-dashboard.png",
+      description:
+        "Weather Dashboard test text. This is just a short description to test put the spacing!",
+      image: "weatherdashboard.png",
       github: "https://github.com/browniecharl/weather-dashboard-challenge",
       deployed: "https://browniecharl.github.io/weather-dashboard-challenge/",
     },
     {
       name: "Scheduler",
-      description: "Scheduler test text. Description will go here",
-      image: "scheduler-screenshot.png",
+      description:
+        "Scheduler test text. This is just a short description to test put the spacing!",
+      image: "dayScheduler.png",
       github: "https://github.com/browniecharl/scheduler-challenge",
       deployed: "https://browniecharl.github.io/scheduler-challenge/",
     },
     {
       name: "Just Music Reviews",
-      description: "Just music reviews test text. Description will go here",
-      image: "homepage.png",
+      description:
+        "Just music reviews test text. This is just a short description to test put the spacing!",
+      image: "musicReview.png",
       github: "https://github.com/Arankin7/JustMusicReviews",
       deployed: "https://blooming-headland-30084.herokuapp.com/",
     },
     {
       name: "Music Dashboard",
-      description: "Music Dashboard test text. Description will go here",
-      image: "lyrics-ss.png",
+      description:
+        "Music Dashboard test text. This is just a short description to test put the spacing!",
+      image: "musicSearch.png",
       github: "https://github.com/Arankin7/project1_MusicDashboard",
       deployed: "https://arankin7.github.io/project1_MusicDashboard/",
     },

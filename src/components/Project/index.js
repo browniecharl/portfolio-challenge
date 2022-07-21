@@ -20,11 +20,19 @@ function Project(props) {
         <Card.Body>
           <Card.Title className="card-title">{name}</Card.Title>
           <Card.Text className="card-text">{description}</Card.Text>
-          <Card.Link href={depLink} target="_blank" className="card-link">
+          <Card.Link
+            href={depLink}
+            target="_blank"
+            className="card-link has-text-white"
+          >
             {name} App
           </Card.Link>
           <br></br>
-          <Card.Link href={gitLink} target="_blank" className="card-link">
+          <Card.Link
+            href={gitLink}
+            target="_blank"
+            className="card-link has-text-white"
+          >
             {name} GitHub
           </Card.Link>
         </Card.Body>

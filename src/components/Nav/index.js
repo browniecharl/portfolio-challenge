@@ -3,7 +3,7 @@ import React from "react";
 function Nav(props) {
   const { currentTab, setCurrentTab } = props;
   return (
-    <nav className="has-text-centered">
+    <nav className="pl-5">
       <ul className="navBarTabs is-inline-flex">
         <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
           <span onClick={() => setCurrentTab("about")}>About Me</span>
