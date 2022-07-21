@@ -46,8 +46,8 @@ function ContactPage() {
         <i class="fa-solid fa-envelope fa-2xs"></i> Contact Me
       </h1>
       <div className="columns is-mobile has-text-centered" id="wrapper">
-        <div className="column is-1"></div>
-        <div className="column" id="wrapperContent">
+        <div className="column"></div>
+        <div className="column is-two-thirds" id="wrapperContent">
           <form id="contact-form" onSubmit={handleSubmit}>
             <div>
               <label className="nameLabel" htmlFor="name">
@@ -95,7 +95,7 @@ function ContactPage() {
             </button>
           </form>
         </div>
-        <div className="column is-1"></div>
+        <div className="column"></div>
       </div>
     </section>
   );

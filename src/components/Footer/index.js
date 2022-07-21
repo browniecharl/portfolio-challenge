@@ -16,7 +16,7 @@ function Footer() {
       <div className="linkdin">
         <a
           className="linkdinIcon"
-          href="https://github.com/browniecharl"
+          href="https://linkedin.com"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -26,7 +26,7 @@ function Footer() {
       <div className="twitter">
         <a
           className="twitterIcon"
-          href="https://github.com/browniecharl"
+          href="https://twitter.com"
           target="_blank"
           rel="noopener noreferrer"
         >
