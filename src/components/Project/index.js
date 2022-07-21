@@ -18,7 +18,7 @@ function Project(props) {
       />
       <div>
         <Card.Body>
-          <Card.Title className="card-title">{name}</Card.Title>
+          <Card.Title className="card-title is-size-3 pb-3">{name}</Card.Title>
           <Card.Text className="card-text">{description}</Card.Text>
           <Card.Link
             href={depLink}

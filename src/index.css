@@ -15,12 +15,16 @@ header {
   color: rgba(54, 51, 51, 0.959);
 }
 
-p {
-  font-size: 1.5rem;
+.profilePic {
+  width: auto;
+  height: auto;
+  max-width: 240px;
+  max-height: 320px;
+  margin-bottom: 15px;
 }
 
-h1 {
-  padding-bottom: 25px;
+p {
+  font-size: 1.5rem;
 }
 
 nav {
@@ -30,7 +34,6 @@ nav {
 
 nav li {
   cursor: pointer;
-  color: black;
 }
 
 nav li:hover span {
@@ -40,57 +43,12 @@ nav li:hover span {
   font-weight: bolder;
 }
 
-form {
-  width: auto;
-}
-
-input {
-  font-size: 1.5rem;
-  background: none;
-  border: 1px solid grey;
-  color: white;
-  width: 40%;
-}
-
-label {
-  font-size: 1rem;
-}
-
-.nameLabel,
-.emailLabel,
-.messageLabel {
-  font-size: 2rem;
-}
-
-.project-card {
-  background-color: rgba(54, 51, 51, 0.959);
-  border-radius: 5%;
-}
-
-textarea {
-  font-size: 1.25rem;
-  width: 60%;
-  border: 1px solid grey;
-  background: none;
-  color: white;
-  resize: none;
-}
-
-input:focus,
-textarea {
-  outline: none;
-}
-
-section {
-  margin-bottom: 10%;
-}
-
-footer {
-  background-color: rgba(54, 51, 51, 0.959);
-  border-top: 5px solid black;
-  padding: 3%;
-  display: flex;
-  justify-content: space-around;
+.aboutMeHead,
+.contactMeHead,
+.resumeHead,
+.portfolioHead {
+  color: rgba(54, 51, 51, 0.959);
+  padding: 5%;
 }
 
 li {
@@ -98,14 +56,9 @@ li {
   font-size: 1.25rem;
 }
 
-.github:hover,
-.linkdin:hover,
-.twitter:hover {
-  border: 1px solid white;
-}
-
-i {
-  font-size: 3rem;
+.project-card {
+  background-color: rgba(54, 51, 51, 0.959);
+  border-radius: 5%;
 }
 
 .weatherdashboard,
@@ -116,32 +69,6 @@ i {
   justify-content: center;
   margin-bottom: 5%;
 }
-.contactButton {
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: rgb(157, 150, 150);
-  border: none;
-  border-radius: 15px;
-  box-shadow: rgba(54, 51, 51, 0.959);
-}
-
-.contactButton:hover {
-  background-color: black;
-}
-
-.profilePic,
-.contactPic {
-  width: auto;
-  height: auto;
-  max-width: 240px;
-  max-height: 320px;
-  padding: 15px;
-  margin-bottom: 15px;
-}
 
 span,
 label {
@@ -149,30 +76,6 @@ label {
   border-radius: 5%;
   border: none;
   color: white;
-}
-
-#wrapperContent {
-  /* border-radius: 4%; */
-  background-color: rgba(54, 51, 51, 0.867);
-  color: white;
-  border-radius: 5%;
-}
-
-.flex-grid {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col {
-  flex: 1;
-}
-
-.aboutMeHead,
-.contactMeHead,
-.resumeHead,
-.portfolioHead {
-  color: rgba(54, 51, 51, 0.959);
-  padding: 5%;
 }
 
 .card-image {
@@ -192,8 +95,86 @@ label {
   text-decoration: underline;
 }
 
-.resumePage {
-  /* background-color: rgba(54, 51, 51, 0.867); */
-  margin-bottom: 0%;
-  padding-bottom: 10%;
+#wrapperContent {
+  background-color: rgba(54, 51, 51, 0.867);
+  color: white;
+  border-radius: 5%;
+}
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+}
+
+form {
+  width: auto;
+}
+
+input {
+  font-size: 1.25rem;
+  background-color: rgba(192, 189, 189, 0.926);
+  width: 40%;
+}
+
+label {
+  font-size: 1rem;
+}
+
+textarea {
+  background-color: rgba(192, 189, 189, 0.926);
+  font-size: 1.25rem;
+  width: 60%;
+  border: 1px solid grey;
+  resize: none;
+}
+
+input:focus,
+textarea {
+  outline: none;
+}
+
+section {
+  margin-bottom: 10%;
+}
+
+.nameLabel,
+.emailLabel,
+.messageLabel {
+  font-size: 2rem;
+}
+
+.contactButton {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: rgba(192, 189, 189, 0.926);
+  border: none;
+  border-radius: 15px;
+  box-shadow: rgba(54, 51, 51, 0.959);
+}
+
+footer {
+  background-color: rgba(192, 189, 189, 0.926);
+  border-top: 5px solid black;
+  padding: 3%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.github:hover,
+.linkdin:hover,
+.twitter:hover {
+  border: 1px solid rgba(54, 51, 51, 0.959);
+  border-radius: 5%;
+}
+
+i {
+  font-size: 3rem;
 }

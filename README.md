@@ -16,3 +16,5 @@ This is a sample portfolio to complete the React.js challenge. The portfolio con
 ## Screenshot
 
 ![](./src/assets/images/portfolioscreenshot.png)
+
+### Created by Robert Velez
