@@ -3,7 +3,7 @@ import React from "react";
 function Nav(props) {
   const { currentTab, setCurrentTab } = props;
   return (
-    <nav className="pl-5">
+    <nav className="navColor">
       <ul className="navBarTabs is-inline-flex">
         <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
           <span onClick={() => setCurrentTab("about")}>About Me</span>

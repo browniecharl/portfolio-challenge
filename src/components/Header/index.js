@@ -6,7 +6,7 @@ function Header(props) {
   return (
     <header className="headerText">
       <div>
-        <h1 className=" is-size-1 pl-5 has-text-weight-bold has-text-white">
+        <h1 className="portfolioHeader is-size-1 pl-5 has-text-weight-bold">
           Robert Velez Portfolio
         </h1>
       </div>

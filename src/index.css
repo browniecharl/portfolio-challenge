@@ -12,7 +12,6 @@ body {
 header {
   background-image: url("./assets/images/Untitled\ design.png");
   background-size: cover;
-  color: rgba(54, 51, 51, 0.959);
 }
 
 .profilePic {
@@ -30,6 +29,7 @@ p {
 nav {
   padding-bottom: 25px;
   border-bottom: 5px solid black;
+  padding-left: 5%;
 }
 
 nav li {
@@ -177,4 +177,20 @@ footer {
 
 i {
   font-size: 3rem;
+}
+
+.portfolioHeader {
+  color: white;
+}
+
+@media Screen and (max-width: 800px) {
+  body,
+  nav,
+  .portfolioHeader {
+    text-align: center;
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(54, 51, 51, 0.959);
+  }
 }
