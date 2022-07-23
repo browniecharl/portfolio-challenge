@@ -13,6 +13,8 @@ This is a sample portfolio to complete the React.js challenge. The portfolio con
 
 ## Portfolio Deployed
 
+https://browniecharl.github.io/portfolio-challenge/
+
 ## Screenshot
 
 ![](./src/assets/images/portfolioscreenshot.png)
