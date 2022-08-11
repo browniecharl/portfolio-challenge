@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-challenge/static/css/main.3cf122b9.css",
-    "main.js": "/portfolio-challenge/static/js/main.7de87383.js",
+    "main.js": "/portfolio-challenge/static/js/main.c8e86651.js",
     "static/js/787.372fcdcc.chunk.js": "/portfolio-challenge/static/js/787.372fcdcc.chunk.js",
     "static/media/340029827-huge.jpg": "/portfolio-challenge/static/media/340029827-huge.41947fb77f2a690ed98d.jpg",
     "static/media/lyrics-ss.png": "/portfolio-challenge/static/media/lyrics-ss.735144a0a7f0e78f3ab8.png",
@@ -9,6 +9,7 @@
     "static/media/kelly-sikkema-eFBrwiubJa0-unsplash.jpg": "/portfolio-challenge/static/media/kelly-sikkema-eFBrwiubJa0-unsplash.a4d56b832bbc59d72a64.jpg",
     "static/media/musicReview.png": "/portfolio-challenge/static/media/musicReview.36552c252265b8b5634e.png",
     "static/media/v1027-097-a.jpg": "/portfolio-challenge/static/media/v1027-097-a.0b311e6dc72e1a59ce11.jpg",
+    "static/media/glamping.png": "/portfolio-challenge/static/media/glamping.ffc005dea09e42bce89a.png",
     "static/media/musicSearch.png": "/portfolio-challenge/static/media/musicSearch.e3ba57980e8391868109.png",
     "static/media/weather-dashboard.png": "/portfolio-challenge/static/media/weather-dashboard.9e7669198b2ba68e4c76.png",
     "static/media/weatherdashboard.png": "/portfolio-challenge/static/media/weatherdashboard.514b627b87fdc5883f3e.png",
@@ -33,11 +34,11 @@
     "static/media/logo.svg": "/portfolio-challenge/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/portfolio-challenge/index.html",
     "main.3cf122b9.css.map": "/portfolio-challenge/static/css/main.3cf122b9.css.map",
-    "main.7de87383.js.map": "/portfolio-challenge/static/js/main.7de87383.js.map",
+    "main.c8e86651.js.map": "/portfolio-challenge/static/js/main.c8e86651.js.map",
     "787.372fcdcc.chunk.js.map": "/portfolio-challenge/static/js/787.372fcdcc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cf122b9.css",
-    "static/js/main.7de87383.js"
+    "static/js/main.c8e86651.js"
   ]
 }
