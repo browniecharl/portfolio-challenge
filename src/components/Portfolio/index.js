@@ -4,6 +4,14 @@ import Project from "../Project";
 function Portfolio() {
   const projects = [
     {
+      name: "Glamorous Glamping",
+      description:
+        "Glamorous Glamping test text. This is just a short description to test out the spacing!",
+      image: "glamping.png",
+      github: "https://github.com/BekimAb/Glamorous-Glamping",
+      deployed: "https://glamorous-glamping.herokuapp.com/",
+    },
+    {
       name: "Weather Dashboard",
       description:
         "Weather Dashboard test text. This is just a short description to test put the spacing!",
